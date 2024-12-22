@@ -1786,14 +1786,14 @@ Xray_WARP() {
             exit 0
             ;;
         1)
-            bash <(curl -fsSL https://raw.githubusercontent.com/yirenchengfeng1/warp/main/warp.sh) x
+            bash <(curl -fsSL https://raw.githubusercontent.com/gxz2018/warp2025/refs/heads/main/warp.sh) x
 			colorEcho $YELLOW 已配置好warp分流！	
             ;;
         2)
-            bash <(curl -fsSL https://raw.githubusercontent.com/yirenchengfeng1/warp/main/warp.sh) d
+            bash <(curl -fsSL https://raw.githubusercontent.com/gxz2018/warp2025/refs/heads/main/warp.sh) d
 			colorEcho $YELLOW 已配置好双栈全局网路，所有流量将走WARP！
             ;;
-        3)  bash <(curl -fsSL https://raw.githubusercontent.com/yirenchengfeng1/warp/main/warp.sh) dwg
+        3)  bash <(curl -fsSL https://raw.githubusercontent.com/gxz2018/warp2025/refs/heads/main/warp.sh) dwg
 			colorEcho $YELLOW warp已成功关闭！
             ;;	
         4)
@@ -1833,14 +1833,14 @@ Xray_WARP_IPv4() {
             exit 0
             ;;
         1)
-            bash <(curl -fsSL https://raw.githubusercontent.com/yirenchengfeng1/warp/main/warp.sh) y
+            bash <(curl -fsSL https://raw.githubusercontent.com/gxz2018/warp2025/refs/heads/main/warp.sh) y
 			colorEcho $YELLOW 已配置好IPv4分流！
             ;;
         2)
-            bash <(curl -fsSL https://raw.githubusercontent.com/yirenchengfeng1/warp/main/warp.sh) d
+            bash <(curl -fsSL https://raw.githubusercontent.com/gxz2018/warp2025/refs/heads/main/warp.sh) d
 			colorEcho $YELLOW 已配置好双栈全局网路，所有流量将走WARP！
             ;;
-        3)  bash <(curl -fsSL https://raw.githubusercontent.com/yirenchengfeng1/warp/main/warp.sh) dwg
+        3)  bash <(curl -fsSL https://raw.githubusercontent.com/gxz2018/warp2025/refs/heads/main/warp.sh) dwg
 			colorEcho $YELLOW warp已成功关闭！
             ;;			
         4)
@@ -1880,14 +1880,14 @@ Xray_WARP_IPv6() {
             exit 0
             ;;
         1)
-            bash <(curl -fsSL https://raw.githubusercontent.com/yirenchengfeng1/warp/main/warp.sh) z
+            bash <(curl -fsSL https://raw.githubusercontent.com/gxz2018/warp2025/refs/heads/main/warp.sh) z
 			colorEcho $YELLOW 已配置好IPv6分流		
             ;;
         2)
-            bash <(curl -fsSL https://raw.githubusercontent.com/yirenchengfeng1/warp/main/warp.sh) d
+            bash <(curl -fsSL https://raw.githubusercontent.com/gxz2018/warp2025/refs/heads/main/warp.sh) d
 			colorEcho $YELLOW 已配置好双栈全局网路，所有流量将走WARP!		
             ;;
-        3)  bash <(curl -fsSL https://raw.githubusercontent.com/yirenchengfeng1/warp/main/warp.sh) dwg
+        3)  bash <(curl -fsSL https://raw.githubusercontent.com/gxz2018/warp2025/refs/heads/main/warp.sh) dwg
 			colorEcho $YELLOW warp已成功关闭!
             ;;	
         4)
